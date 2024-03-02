@@ -1,0 +1,16 @@
+
+.screen {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.canva {
+    width: 500px;
+    height: 500px;
+    grid-column: 1;
+}
+
+.enter {
+    grid-column: 2;
+}
